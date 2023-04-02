@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliders</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="logo">slide<span class="marker">rs</div>
+        <nav class="nav">
+            <div class="nav__list">
+                <div class="nav__item">About</div>
+                <div class="nav__item types">Types</div>
+                <div class="nav__inner">
+                    <div class="inner__item" data-id="1">With controls</div>
+                    <div class="inner__item" data-id="2">With indicators</div>
+                    <div class="inner__item" data-id="3">With captions</div>
+                </div>
+            </div>
+        </nav>
+        <button class="contact">Contact me</button>
+    </header>
+
+    <main>
+
+        <div class="intro container">
+            <div class="intro__text">
+                <h1 class="title">Building a Carousel <span class="marker">(Sliders)</span></h1>
+                <p class="intro__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, similique
+                    dignissimos deleniti itaque necessitatibus, qui impedit minima laboriosam labore minus facilis
+                    omnis? Numquam obcaecati alias veniam iure laborum, pariatur reiciendis.</p>
+            </div>
+            <div class="intro__img">
+                <img class="intro__img1" src="images/intro.webp" alt="img" width="350">
+                <img class="intro__img2" src="images/intro2.jpg" alt="img" width="350">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content content--1 show">
+                <div class="controlers__text">
+                    <h1 class="title">With Controlers</h1>
+                    <p class="desc">Adding in the <span class="marker">previous</span> and <span
+                            class="marker">next</span> controls. </p>
+
+                    <div class="slider">
+                        <div class="slides">
+                            <img src="https://picsum.photos/id/634/600/300" alt="img">
+                        </div>
+                        <div class="slides">
+                            <img src="https://picsum.photos/id/535/600/300" alt="img">
+                        </div>
+                        <div class="slides">
+                            <img src="https://picsum.photos/id/136/600/300" alt="img">
+                        </div>
+                        <div class="slides">
+                            <img src="https://picsum.photos/id/37/600/300" alt="img">
+                        </div>
+                        <div class="buttons">
+                            <button class="prev">prev</button>
+                            <button class="next">next</button>
+                        </div>
+                        <p class="slideNum"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content content--2">
+                <img src="https://picsum.photos/id/412/600/300" alt="img">
+            </div>
+            <div class="content content--3">
+                <img src="https://picsum.photos/id/112/600/300" alt="img">
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
